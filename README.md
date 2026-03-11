@@ -9,8 +9,8 @@ Shape the platform layer that helps engineers provision, validate, and operate s
 ## Role in the ecosystem
 
 - Consumes ideas from `forge`
-- Uses helpers from `automation-tools` and `devops-toolkit`
-- Supports `orbit` and `saas-platform`
+- Uses helpers from `automata` and `anvil`
+- Supports `orbit` and `summit`
 
 ## Status
 
@@ -46,8 +46,8 @@ go run ./cmd/idpctl catalog
 ## Related repositories
 
 - `forge`
-- `automation-tools`
-- `devops-toolkit`
+- `automata`
+- `anvil`
 - `orbit`
 
 ## Future direction
