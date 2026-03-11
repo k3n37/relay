@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("idpctl catalog: service-template, devops-toolkit, automation-tools")
+	fmt.Println("idpctl catalog: forge, devops-toolkit, automation-tools")
 }

@@ -1,4 +1,4 @@
-# internal-developer-platform
+# relay
 
 Starter internal platform repository for service ergonomics, developer self-service, and golden paths.
 
@@ -8,9 +8,9 @@ Shape the platform layer that helps engineers provision, validate, and operate s
 
 ## Role in the ecosystem
 
-- Consumes ideas from `service-template`
+- Consumes ideas from `forge`
 - Uses helpers from `automation-tools` and `devops-toolkit`
-- Supports `master-platform` and `saas-platform`
+- Supports `orbit` and `saas-platform`
 
 ## Status
 
@@ -24,7 +24,7 @@ Starter platform repo with a simple self-service catalog model.
 ## Structure
 
 ```text
-internal-developer-platform/
+relay/
 ├── cmd/
 │   └── idpctl/
 │       └── main.go
@@ -45,10 +45,10 @@ go run ./cmd/idpctl catalog
 
 ## Related repositories
 
-- `service-template`
+- `forge`
 - `automation-tools`
 - `devops-toolkit`
-- `master-platform`
+- `orbit`
 
 ## Future direction
 
