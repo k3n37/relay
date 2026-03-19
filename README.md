@@ -1,55 +1,34 @@
 # relay
 
-Starter internal platform repository for service ergonomics, developer self-service, and golden paths.
-
 ## Purpose
+Improve developer workflows through internal tooling, self-service platform patterns, and clearer service ergonomics.
 
-Shape the platform layer that helps engineers provision, validate, and operate services with less friction.
+## Why it matters
+When developer workflows are inconsistent, routine platform tasks slow down and delivery quality depends too much on manual knowledge.
 
-## Role in the ecosystem
+## Scope
+This repo focuses on internal tooling, workflow helpers, and platform-facing developer experience. It does not try to replace the entire platform stack.
 
-- Consumes ideas from `forge`
-- Uses helpers from `automata` and `anvil`
-- Supports `orbit` and `summit`
+## System Role
+`relay` is the developer platform layer for the ecosystem. It reduces friction between service code, delivery workflows, and operational tooling.
 
-## Status
+## System Connections
+- Depends on: service patterns from `forge` and automation from `automata`.
+- Feeds into: faster delivery and more consistent platform workflows.
+- Interacts with: `runway`, `automata`, `anvil`.
 
-Starter platform repo with a simple self-service catalog model.
+## Core Concepts
+- self-service workflows
+- developer ergonomics
+- service templates
+- internal tooling
+- platform consistency
 
-## Tech stack
+## Minimal Artifact
+`cmd/idpctl/main.go` and `docs/platform-catalog.md` provide the starter platform helper and workflow note.
 
-- Go
-- Markdown
+## Notes
+The emphasis is on tooling that removes repeated platform friction rather than adding another layer of ceremony.
 
-## Structure
-
-```text
-relay/
-├── cmd/
-│   └── idpctl/
-│       └── main.go
-├── docs/
-│   └── platform-catalog.md
-├── .editorconfig
-├── .gitignore
-├── README.md
-├── ROADMAP.md
-└── go.mod
-```
-
-## Getting started
-
-```bash
-go run ./cmd/idpctl catalog
-```
-
-## Related repositories
-
-- `forge`
-- `automata`
-- `anvil`
-- `orbit`
-
-## Future direction
-
-Evolve toward self-service workflows and service discoverability without trying to replace every platform tool.
+## Next Steps
+Add service bootstrap actions, validation commands, and stronger catalog conventions.
